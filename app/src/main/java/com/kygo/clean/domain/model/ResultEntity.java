@@ -1,14 +1,14 @@
 package com.kygo.clean.domain.model;
 
-import java.io.Serializable;
+import org.parceler.Parcel;
 
 /**
  * Created by kygo on 2016/5/10 0010.
  * 天气
  */
-public class ResultEntity implements Serializable{
+@Parcel
+public class ResultEntity{
 
-    private static final long serialVersionUID = 6008615284826064489L;
 
 
     /**
@@ -21,13 +21,13 @@ public class ResultEntity implements Serializable{
      * exerciseIndex : 不适宜
      */
 
-    private String airCondition;
-    private String city;
-    private String coldIndex;
-    private String date;
-    private String distrct;
-    private String dressingIndex;
-    private String exerciseIndex;
+     String airCondition;
+     String city;
+     String coldIndex;
+     String date;
+     String distrct;
+     String dressingIndex;
+     String exerciseIndex;
     /**
      * humidity : 湿度：14%
      * pollutionIndex : 97
@@ -43,18 +43,18 @@ public class ResultEntity implements Serializable{
      * wind : 无持续风向1级
      */
 
-    private String humidity;
-    private String pollutionIndex;
-    private String province;
-    private String sunrise;
-    private String sunset;
-    private String temperature;
-    private String time;
-    private String updateTime;
-    private String washIndex;
-    private String weather;
-    private String week;
-    private String wind;
+    String humidity;
+    String pollutionIndex;
+    String province;
+    String sunrise;
+    String sunset;
+    String temperature;
+    String time;
+    String updateTime;
+    String washIndex;
+    String weather;
+    String week;
+    String wind;
 
 
     public void setAirCondition(String airCondition) {

@@ -1,10 +1,13 @@
 package com.kygo.clean.domain.model;
 
+import org.parceler.Parcel;
+
 import java.util.List;
 
 /**
  * Created by kygo on 2016/5/11 0011.
  */
+@Parcel
 public class JsonBean {
 
 
@@ -14,9 +17,9 @@ public class JsonBean {
      * retCode : 200
      */
 
-    private String msg;
-    private String retCode;
-    private List<ResultEntity> result;
+    String msg;
+    String retCode;
+    List<ResultEntity> result;
 
     public void setMsg(String msg) {
         this.msg = msg;

@@ -3,6 +3,7 @@
           package="com.kygo.clean">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".CleanApplication"
         android:allowBackup="true"
